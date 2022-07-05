@@ -1,0 +1,242 @@
+{
+  "time_periods": 8,
+  "demand": [
+    25004.85,
+    23563.11,
+    22579.56,
+    21998.37,
+    21897.14,
+    22080.66,
+    22441.54,
+    22809.65
+  ],
+  "reserves": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "thermal_generators": {
+    "GEN7773": {
+      "must_run": 1,
+      "power_output_minimum": 0.13,
+      "power_output_maximum": 0.65,
+      "ramp_up_limit": 25,
+      "ramp_down_limit": 25,
+      "ramp_startup_limit": 25.13,
+      "ramp_shutdown_limit": 25.13,
+      "time_up_minimum": 1,
+      "time_down_minimum": 1,
+      "power_output_t0": 0.13,
+      "unit_on_t0": 1,
+      "time_up_t0": 1,
+      "time_down_t0": 0,
+      "startup": [
+        {
+          "lag": 1,
+          "cost": 0.0325
+        },
+        {
+          "lag": 2,
+          "cost": 0.04875
+        }
+      ],
+      "piecewise_production": [
+        {
+          "mw": 0.13,
+          "cost": 0.0049585
+        },
+        {
+          "mw": 0.65,
+          "cost": 0.0181925
+        }
+      ],
+      "name": "GEN7773"
+    },
+    "GEN9237": {
+      "must_run": 0,
+      "power_output_minimum": 0.93,
+      "power_output_maximum": 3.1,
+      "ramp_up_limit": 60,
+      "ramp_down_limit": 60,
+      "ramp_startup_limit": 60.93,
+      "ramp_shutdown_limit": 60.93,
+      "time_up_minimum": 1,
+      "time_down_minimum": 1,
+      "power_output_t0": 0.93,
+      "unit_on_t0": 1,
+      "time_up_t0": 1,
+      "time_down_t0": 0,
+      "startup": [
+        {
+          "lag": 1,
+          "cost": 0.093
+        },
+        {
+          "lag": 2,
+          "cost": 0.12400000000000001
+        }
+      ],
+      "piecewise_production": [
+        {
+          "mw": 0.93,
+          "cost": 0.0404561
+        },
+        {
+          "mw": 3.1,
+          "cost": 0.126757
+        }
+      ],
+      "name": "GEN9237"
+    },
+    "GEN622": {
+      "must_run": 0,
+      "power_output_minimum": 12.9,
+      "power_output_maximum": 43,
+      "ramp_up_limit": 320,
+      "ramp_down_limit": 320,
+      "ramp_startup_limit": 332.9,
+      "ramp_shutdown_limit": 332.9,
+      "time_up_minimum": 1,
+      "time_down_minimum": 1,
+      "power_output_t0": 12.9,
+      "unit_on_t0": 1,
+      "time_up_t0": 1,
+      "time_down_t0": 0,
+      "startup": [
+        {
+          "lag": 1,
+          "cost": 1.29
+        },
+        {
+          "lag": 2,
+          "cost": 1.72
+        }
+      ],
+      "piecewise_production": [
+        {
+          "mw": 12.9,
+          "cost": 48.889191
+        },
+        {
+          "mw": 43,
+          "cost": 162.27559
+        }
+      ],
+      "name": "GEN622"
+    },
+    "GEN11122": {
+      "must_run": 1,
+      "power_output_minimum": 39,
+      "power_output_maximum": 78,
+      "ramp_up_limit": 18,
+      "ramp_down_limit": 18,
+      "ramp_startup_limit": 57,
+      "ramp_shutdown_limit": 57,
+      "time_up_minimum": 3,
+      "time_down_minimum": 3,
+      "power_output_t0": 39,
+      "unit_on_t0": 1,
+      "time_up_t0": 3,
+      "time_down_t0": 0,
+      "startup": [
+        {
+          "lag": 3,
+          "cost": 3.9000000000000004
+        },
+        {
+          "lag": 8,
+          "cost": 5.85
+        }
+      ],
+      "piecewise_production": [
+        {
+          "mw": 39,
+          "cost": 0.015600000000000001
+        },
+        {
+          "mw": 78,
+          "cost": 0.031200000000000002
+        }
+      ],
+      "name": "GEN11122"
+    },
+    "GEN570": {
+      "must_run": 1,
+      "power_output_minimum": 0.564,
+      "power_output_maximum": 1.88,
+      "ramp_up_limit": 25,
+      "ramp_down_limit": 25,
+      "ramp_startup_limit": 25.564,
+      "ramp_shutdown_limit": 25.564,
+      "time_up_minimum": 1,
+      "time_down_minimum": 1,
+      "power_output_t0": 0.564,
+      "unit_on_t0": 1,
+      "time_up_t0": 1,
+      "time_down_t0": 0,
+      "startup": [
+        {
+          "lag": 1,
+          "cost": 0.094
+        },
+        {
+          "lag": 2,
+          "cost": 0.141
+        }
+      ],
+      "piecewise_production": [
+        {
+          "mw": 0.564,
+          "cost": 0.014353799999999998
+        },
+        {
+          "mw": 1.88,
+          "cost": 0.047846
+        }
+      ],
+      "name": "GEN570"
+    },
+    "GEN7735": {
+      "must_run": 0,
+      "power_output_minimum": 1.725,
+      "power_output_maximum": 5.75,
+      "ramp_up_limit": 60,
+      "ramp_down_limit": 60,
+      "ramp_startup_limit": 61.725,
+      "ramp_shutdown_limit": 61.725,
+      "time_up_minimum": 1,
+      "time_down_minimum": 1,
+      "power_output_t0": 1.725,
+      "unit_on_t0": 1,
+      "time_up_t0": 1,
+      "time_down_t0": 0,
+      "startup": [
+        {
+          "lag": 1,
+          "cost": 0.1725
+        },
+        {
+          "lag": 2,
+          "cost": 0.23
+        }
+      ],
+      "piecewise_production": [
+        {
+          "mw": 1.725,
+          "cost": 0.07504325
+        },
+        {
+          "mw": 5.75,
+          "cost": 0.2351175
+        }
+      ],
+      "name": "GEN7735"
+    }
+  },
+  "renewable_generators": {}
+}
