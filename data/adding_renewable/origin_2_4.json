@@ -1,0 +1,409 @@
+{
+  "time_periods": 12,
+  "demand": [
+    3123.21,
+    3080.15,
+    3064.65,
+    3080.29,
+    3153.29,
+    3299.8,
+    3425.02,
+    3610.07,
+    3791.72,
+    3929.53,
+    4008.42,
+    4019.6
+  ],
+  "reserves": [
+    93.6963,
+    92.4045,
+    91.9395,
+    92.4087,
+    94.5987,
+    98.994,
+    102.75059999999999,
+    108.3021,
+    113.7516,
+    117.8859,
+    120.2526,
+    120.588
+  ],
+  "thermal_generators": {
+    "301_CT_1": {
+      "must_run": 0,
+      "power_output_minimum": 8,
+      "power_output_maximum": 20,
+      "ramp_up_limit": 60,
+      "ramp_down_limit": 60,
+      "ramp_startup_limit": 8,
+      "ramp_shutdown_limit": 8,
+      "time_up_minimum": 1,
+      "time_down_minimum": 1,
+      "power_output_t0": 0,
+      "unit_on_t0": 0,
+      "time_down_t0": 168,
+      "time_up_t0": 0,
+      "startup": [
+        {
+          "lag": 1,
+          "cost": 51.75
+        }
+      ],
+      "piecewise_production": [
+        {
+          "mw": 8,
+          "cost": 1208.23
+        },
+        {
+          "mw": 12,
+          "cost": 1557.25
+        },
+        {
+          "mw": 16,
+          "cost": 1956.04
+        },
+        {
+          "mw": 20,
+          "cost": 2377.51
+        }
+      ],
+      "name": "301_CT_1"
+    },
+    "202_CT_2": {
+      "must_run": 0,
+      "power_output_minimum": 8,
+      "power_output_maximum": 20,
+      "ramp_up_limit": 60,
+      "ramp_down_limit": 60,
+      "ramp_startup_limit": 8,
+      "ramp_shutdown_limit": 8,
+      "time_up_minimum": 1,
+      "time_down_minimum": 1,
+      "power_output_t0": 0,
+      "unit_on_t0": 0,
+      "time_down_t0": 28,
+      "time_up_t0": 0,
+      "startup": [
+        {
+          "lag": 1,
+          "cost": 51.75
+        }
+      ],
+      "piecewise_production": [
+        {
+          "mw": 8,
+          "cost": 1131.23
+        },
+        {
+          "mw": 12,
+          "cost": 1455.62
+        },
+        {
+          "mw": 16,
+          "cost": 1805.1
+        },
+        {
+          "mw": 20,
+          "cost": 2196.47
+        }
+      ],
+      "name": "202_CT_2"
+    },
+    "201_CT_1": {
+      "must_run": 0,
+      "power_output_minimum": 8,
+      "power_output_maximum": 20,
+      "ramp_up_limit": 60,
+      "ramp_down_limit": 60,
+      "ramp_startup_limit": 8,
+      "ramp_shutdown_limit": 8,
+      "time_up_minimum": 1,
+      "time_down_minimum": 1,
+      "power_output_t0": 0,
+      "unit_on_t0": 0,
+      "time_down_t0": 168,
+      "time_up_t0": 0,
+      "startup": [
+        {
+          "lag": 1,
+          "cost": 51.75
+        }
+      ],
+      "piecewise_production": [
+        {
+          "mw": 8,
+          "cost": 1157.23
+        },
+        {
+          "mw": 12,
+          "cost": 1487.13
+        },
+        {
+          "mw": 16,
+          "cost": 1822.74
+        },
+        {
+          "mw": 20,
+          "cost": 2269.09
+        }
+      ],
+      "name": "201_CT_1"
+    },
+    "315_STEAM_1": {
+      "must_run": 0,
+      "power_output_minimum": 5,
+      "power_output_maximum": 12,
+      "ramp_up_limit": 20,
+      "ramp_down_limit": 20,
+      "ramp_startup_limit": 5,
+      "ramp_shutdown_limit": 5,
+      "time_up_minimum": 4,
+      "time_down_minimum": 2,
+      "power_output_t0": 0,
+      "unit_on_t0": 0,
+      "time_down_t0": 168,
+      "time_up_t0": 0,
+      "startup": [
+        {
+          "lag": 2,
+          "cost": 393.28
+        },
+        {
+          "lag": 4,
+          "cost": 455.37
+        },
+        {
+          "lag": 12,
+          "cost": 703.76
+        }
+      ],
+      "piecewise_production": [
+        {
+          "mw": 5,
+          "cost": 745.67
+        },
+        {
+          "mw": 7.33,
+          "cost": 921.44
+        },
+        {
+          "mw": 9.67,
+          "cost": 1156.38
+        },
+        {
+          "mw": 12,
+          "cost": 1445.53
+        }
+      ],
+      "name": "315_STEAM_1"
+    }
+  },
+  "renewable_generators": {
+    "122_HYDRO_4": {
+      "power_output_minimum": [
+        25,
+        25,
+        25,
+        25.5,
+        25.9,
+        25.5,
+        31.6,
+        32.5,
+        35.8,
+        38.7,
+        38.7,
+        39.2,
+        38.2,
+        38.7,
+        38.7,
+        38.7,
+        38.7,
+        38.7,
+        34,
+        32.1,
+        25.5,
+        24.5,
+        12.7,
+        12.7,
+        12.7,
+        12.7,
+        12.7,
+        12.7,
+        12.7,
+        12.7,
+        13.2,
+        16.5,
+        17.5,
+        38.2,
+        38.7,
+        39.2,
+        38.2,
+        38.7,
+        38.7,
+        38.7,
+        38.7,
+        38.7,
+        38.7,
+        37.7,
+        15.1,
+        12.7,
+        12.7,
+        12.7
+      ],
+      "power_output_maximum": [
+        25,
+        25,
+        25,
+        25.5,
+        25.9,
+        25.5,
+        31.6,
+        32.5,
+        35.8,
+        38.7,
+        38.7,
+        39.2,
+        38.2,
+        38.7,
+        38.7,
+        38.7,
+        38.7,
+        38.7,
+        34,
+        32.1,
+        25.5,
+        24.5,
+        12.7,
+        12.7,
+        12.7,
+        12.7,
+        12.7,
+        12.7,
+        12.7,
+        12.7,
+        13.2,
+        16.5,
+        17.5,
+        38.2,
+        38.7,
+        39.2,
+        38.2,
+        38.7,
+        38.7,
+        38.7,
+        38.7,
+        38.7,
+        38.7,
+        37.7,
+        15.1,
+        12.7,
+        12.7,
+        12.7
+      ],
+      "name": "122_HYDRO_4"
+    },
+    "101_PV_1": {
+      "power_output_minimum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "power_output_maximum": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1.1,
+        13,
+        18.4,
+        21.2,
+        22.2,
+        21.9,
+        21,
+        20.2,
+        16.9,
+        12.6,
+        9.2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.7,
+        5.4,
+        1.2,
+        3.1,
+        15.5,
+        9.1,
+        19.7,
+        19.6,
+        17.5,
+        10.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "101_PV_1"
+    }
+  }
+}
